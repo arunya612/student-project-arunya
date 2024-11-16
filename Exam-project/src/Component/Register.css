@@ -1,0 +1,76 @@
+    
+/* Container styles */
+.container {
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 50px auto; /* Center the form vertically and horizontally */
+    padding: 20px; /* Add padding around the container */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading styles */
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+/* Form styles */
+form {
+    display: flex; /* Use flexbox to arrange elements */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Label styles */
+label {
+    margin: 10px 0 5px; /* Add space around labels */
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Input styles */
+input[type="tex"],
+input[type="pass"],
+input[type="email" ],
+input[type="tel"] {
+    padding: 10px; /* Add padding within input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for inputs */
+    width: 100%; /* Full width of the container */
+}
+
+/* Button styles */
+button {
+    padding: 10px; /* Add padding within buttons */
+    background-color: #28a745; /* Green background for buttons */
+    color: #28a745; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Error message styles */
+p {
+    margin: 10px 0; /* Add spacing around messages */
+}
+
+/* Error message styles */
+.error {
+    color: red; /* Red color for error messages */
+    font-weight: bold; /* Bold text for visibility */
+}
+
+/* Success message styles */
+.success {
+    color: green; /* Green color for success messages */
+    font-weight: bold; /* Bold text for visibility */
+}
+
